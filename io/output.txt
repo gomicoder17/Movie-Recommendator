@@ -1,0 +1,25 @@
+Best match for movie 'superman':
+ --> Superman (1978-12-13) by Richard Donner <-- 
+
+Recommendations for Superman:
+ - Superman II (1980-12-04) by Richard Lester
+ - Superman III (1983-06-17) by Richard Lester
+ - Superman IV: The Quest for Peace (1987-07-24) by Sidney J. Furie
+ - Superman Returns (2006-06-28) by Bryan Singer
+ - Batman (1989-06-23) by Tim Burton
+ - Batman Returns (1992-06-19) by Tim Burton
+ - Superman II: The Richard Donner Cut (2006-11-02) by Richard Donner
+ - Batman Forever (1995-06-16) by Joel Schumacher
+ - RoboCop (1987-07-17) by Paul Verhoeven
+ - Batman & Robin (1997-06-20) by Joel Schumacher
+ - Supergirl (1984-07-01) by Jeannot Szwarc
+ - Hulk (2003-06-19) by Ang Lee
+ - Superman: The Mad Scientist (1941-09-26) by Dave Fleischer
+ - Indiana Jones and the Temple of Doom (1984-05-23) by Steven Spielberg
+ - Spontaneous Combustion (1990-02-23) by Tobe Hooper
+ - Superman and the Mole-Men (1951-11-23) by Lee Sholem
+ - Ghostbusters (1984-06-08) by Ivan Reitman
+ - Lethal Weapon (1987-03-06) by Richard Donner
+ - Fantastic Four (2005-06-29) by Tim Story
+ - First Blood (1982-10-22) by Ted Kotcheff
+ - Total Recall (1990-06-01) by Paul Verhoeven
