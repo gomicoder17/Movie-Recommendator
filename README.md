@@ -10,7 +10,12 @@ titles in the io/output.txt file.
 ## Input Format
     <movie||series>,<title>
 
-![Input](data/input.jpeg)
 
 ## To Run
     > docker-compose up
+
+## Example Input
+![Input](data/input.jpeg)
+
+## Example Output
+![Output](data/output.jpeg)
