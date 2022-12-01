@@ -29,10 +29,11 @@ def delete_logs():
 
 
 with DAG(
-    "my_dag",
+    "movie-recommendator-dag",
     start_date=datetime(2021, 1, 1),
     schedule_interval=timedelta(minutes=1),
     catchup=False,
+    default_args={"owner": "airflow"},
 ) as dag:
 
     look_for_new_input_task = PythonOperator(
@@ -98,7 +99,7 @@ with DAG(
     )
 
 with DAG(
-    "delete_logs",
+    "mr-delete_logs",
     start_date=datetime(2021, 1, 1),
     schedule_interval=timedelta(minutes=5),
     catchup=False,
