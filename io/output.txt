@@ -1,25 +1,25 @@
-Best match for movie 'superman':
- --> Superman (1978-12-13) by Richard Donner <-- 
+Best match for movie 'django unchained':
+ --> Django Unchained (2012-12-25) by Quentin Tarantino <-- 
 
-Recommendations for Superman:
- - Superman II (1980-12-04) by Richard Lester
- - Superman III (1983-06-17) by Richard Lester
- - Superman IV: The Quest for Peace (1987-07-24) by Sidney J. Furie
- - Superman Returns (2006-06-28) by Bryan Singer
- - Batman (1989-06-23) by Tim Burton
- - Batman Returns (1992-06-19) by Tim Burton
- - Superman II: The Richard Donner Cut (2006-11-02) by Richard Donner
- - Batman Forever (1995-06-16) by Joel Schumacher
- - RoboCop (1987-07-17) by Paul Verhoeven
- - Batman & Robin (1997-06-20) by Joel Schumacher
- - Supergirl (1984-07-01) by Jeannot Szwarc
- - Hulk (2003-06-19) by Ang Lee
- - Superman: The Mad Scientist (1941-09-26) by Dave Fleischer
- - Indiana Jones and the Temple of Doom (1984-05-23) by Steven Spielberg
- - Spontaneous Combustion (1990-02-23) by Tobe Hooper
- - Superman and the Mole-Men (1951-11-23) by Lee Sholem
- - Ghostbusters (1984-06-08) by Ivan Reitman
- - Lethal Weapon (1987-03-06) by Richard Donner
- - Fantastic Four (2005-06-29) by Tim Story
- - First Blood (1982-10-22) by Ted Kotcheff
- - Total Recall (1990-06-01) by Paul Verhoeven
+Recommendations for Django Unchained:
+ - Inglourious Basterds (2009-08-19) by Quentin Tarantino
+ - Pulp Fiction (1994-09-10) by Quentin Tarantino
+ - Inception (2010-07-15) by Christopher Nolan
+ - The Dark Knight Rises (2012-07-16) by Christopher Nolan
+ - Kill Bill: Vol. 1 (2003-10-10) by Quentin Tarantino
+ - The Dark Knight (2008-07-14) by Christopher Nolan
+ - Fight Club (1999-10-15) by David Fincher
+ - Reservoir Dogs (1992-09-02) by Quentin Tarantino
+ - Kill Bill: Vol. 2 (2004-04-16) by Quentin Tarantino
+ - Shutter Island (2010-02-14) by Martin Scorsese
+ - The Wolf of Wall Street (2013-12-25) by Martin Scorsese
+ - Skyfall (2012-10-24) by Sam Mendes
+ - The Hateful Eight (2015-12-25) by Quentin Tarantino
+ - The Departed (2006-10-04) by Martin Scorsese
+ - The Matrix (1999-03-30) by Lilly Wachowski
+ - The Hobbit: An Unexpected Journey (2012-11-26) by Peter Jackson
+ - Batman Begins (2005-06-10) by Christopher Nolan
+ - Avatar (2009-12-15) by James Cameron
+ - The Lord of the Rings: The Fellowship of the Ring (2001-12-18) by Peter Jackson
+ - Forrest Gump (1994-06-23) by Robert Zemeckis
+ - Gladiator (2000-05-04) by Ridley Scott

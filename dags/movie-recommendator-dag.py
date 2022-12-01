@@ -3,7 +3,6 @@ from datetime import datetime, timedelta
 from airflow.operators.python import PythonOperator
 from airflow.operators.python import BranchPythonOperator
 from airflow.operators.python import ShortCircuitOperator
-from airflow.operators.bash import BashOperator
 import recommend
 
 
@@ -18,22 +17,11 @@ def end():
     print("----No new input found. Exiting.----")
 
 
-def delete_logs():
-    print("Deleting logs...")
-    import os
-    import shutil
-
-    shutil.rmtree("logs/")
-    if not os.path.exists("logs/"):
-        os.makedirs("logs/")
-
-
 with DAG(
     "movie-recommendator-dag",
     start_date=datetime(2021, 1, 1),
     schedule_interval=timedelta(minutes=1),
     catchup=False,
-    default_args={"owner": "airflow"},
 ) as dag:
 
     look_for_new_input_task = PythonOperator(
@@ -44,7 +32,6 @@ with DAG(
     parse_input_task = PythonOperator(
         task_id="parse_input",
         python_callable=recommend.parse_input,
-        provide_context=True,
     )
 
     extract_task = PythonOperator(
@@ -56,30 +43,25 @@ with DAG(
     filter_by_type_task = PythonOperator(
         task_id="filter_by_type",
         python_callable=recommend.filter_by_type,
-        provide_context=True,
     )
     search_title_id_task = PythonOperator(
         task_id="search_title_id",
         python_callable=recommend.search_title_id,
-        provide_context=True,
     )
 
     get_recommendations_task = PythonOperator(
         task_id="get_recommendations",
         python_callable=recommend.get_recommendations,
-        provide_context=True,
     )
 
     write_recs_to_file_task = PythonOperator(
         task_id="write_recs_to_file",
         python_callable=recommend.write_recs_to_file,
-        provide_context=True,
     )
 
     brach_if_no_input = BranchPythonOperator(
         task_id="brach_if_no_input",
         python_callable=brach_if_no_input,
-        provide_context=True,
     )
 
     end_task = ShortCircuitOperator(
@@ -97,15 +79,3 @@ with DAG(
         >> get_recommendations_task
         >> write_recs_to_file_task,
     )
-
-with DAG(
-    "mr-delete_logs",
-    start_date=datetime(2021, 1, 1),
-    schedule_interval=timedelta(minutes=5),
-    catchup=False,
-) as dag:
-    delete_logs = PythonOperator(
-        task_id="delete_logs",
-        python_callable=delete_logs,
-    )
-    delete_logs
